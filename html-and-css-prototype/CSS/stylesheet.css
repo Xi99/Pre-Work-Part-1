@@ -102,7 +102,12 @@ h1 {
 	font-weight: bold;
 }
 
+.dollars {
+
+}
+
 .dollars input[type="text"] {
+	display: inline-block;
 	width: 100px;
 	height: 40px;
 	border: 1px solid #eaeaea;
@@ -110,22 +115,33 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: 16px;
 	border-radius: 3px;
-	margin-right: 5px;
+	margin-right: 24.84px;
 	margin-top: 10px;
 }
 
 .dollars input[type="submit"] {
 	background: #1CBC2C;
+
 	color: white;
 	padding: 10px;
-	border-radius: 3px;
+	border-radius: 4px;
 	text-align: center;
 	width: 100px;
 	height: 40px;
 	border: 1px solid #eaeaea;
-	margin-right: 20px;
 	font-size: 16px;
 	font-weight: bold;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+}
+
+.clearing {
+	clear: both;
+}
+
+.why-give {
+	font-style: italic;
+	color: #20A1D4;
+	font-family: font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	margin-top: 5px;
 }
 /* Your CSS code goes here */
