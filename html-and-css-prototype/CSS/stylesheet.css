@@ -40,19 +40,20 @@ h1 {
   light grey: #eaeaea;
 */
 .whole-thing {
-	display: grid;
-	grid-template-rows: 25px 10px 200px;
-	margin:auto;
+	margin: auto;
 	width: 260px;
 
 }
 
 .top-gray-box {
-	display: grid;
+
+	margin-bottom: 37px;
 	background: #424242;
-	align-self: center;
+	padding: 10px;
+	border-radius: 3px;
+	text-align: center;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	margin-bottom: 20px;
+
 
 
 }
@@ -60,11 +61,23 @@ h1 {
 .still-needed {
 	justify-self: center;
 	color: white;
+	font-size: 15px;
+
+}
+
+
+.the-progress {
+	height: 10px;
+	background: #EF5F3C;
+	width: 75%;
+
 
 }
 
 .progress-bar {
-	background: #EF5F3C;
+	border-bottom: 0;
+	border: 1px solid #black;
+
 
 }
 
@@ -72,6 +85,18 @@ h1 {
 	background: white;
 	border: 1px solid;
 	border-color: #eaeaea;
+	text-align: left;
+	padding: 20px;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 13px;
+	color: #777;
 
+
+
+}
+
+.days {
+	color: #EF5F3C;
+	font-weight: bold;
 }
 /* Your CSS code goes here */
