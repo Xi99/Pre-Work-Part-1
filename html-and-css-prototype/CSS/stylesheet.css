@@ -47,7 +47,7 @@ h1 {
 
 .top-gray-box {
 
-	margin-bottom: 37px;
+	Margin-bottom: 10px;
 	background: #424242;
 	padding: 10px;
 	border-radius: 3px;
@@ -67,17 +67,15 @@ h1 {
 
 
 .the-progress {
-	height: 10px;
-	background: #EF5F3C;
-	width: 75%;
+	border: 1px solid #eaeaea;
 
 
 }
 
 .progress-bar {
-	border-bottom: 0;
-	border: 1px solid #black;
-
+	height: 10px;
+	background: #EF5F3C;
+	width: 75%;
 
 }
 
@@ -86,17 +84,48 @@ h1 {
 	border: 1px solid;
 	border-color: #eaeaea;
 	text-align: left;
-	padding: 20px;
+	padding: 14px;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-	font-size: 13px;
+	font-size: 14px;
 	color: #777;
 
 
 
 }
 
+#second-p {
+	margin-top: 10px;
+}
+
 .days {
 	color: #EF5F3C;
 	font-weight: bold;
+}
+
+.dollars input[type="text"] {
+	width: 100px;
+	height: 40px;
+	border: 1px solid #eaeaea;
+	font-weight: bold;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size: 16px;
+	border-radius: 3px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.dollars input[type="submit"] {
+	background: #1CBC2C;
+	color: white;
+	padding: 10px;
+	border-radius: 3px;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #eaeaea;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 /* Your CSS code goes here */
