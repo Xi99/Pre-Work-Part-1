@@ -46,7 +46,6 @@ h1 {
 }
 
 .top-gray-box {
-
 	Margin-bottom: 9px;
 	background: #424242;
 	padding: 10px;
@@ -54,21 +53,30 @@ h1 {
 	text-align: center;
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 
+}
 
+.top-gray-box:after {
+	content: '';
+	position: absolute;
+	border-width: 6px 4px;
+	border-style: solid;
+	border-top-color: #424242;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	margin: 10px 0px 0px 90px;
 
 }
 
 .still-needed {
 	justify-self: center;
 	color: white;
-	font-size: 15px;
+	font-size: 14px;
 
 }
 
-
 .the-progress {
 	border: 1px solid #e0e0e0;
-
 
 }
 
@@ -97,6 +105,7 @@ h1 {
 
 #second-p {
 	margin-top: 10px;
+
 }
 
 .days {
@@ -115,12 +124,12 @@ h1 {
 	border-radius: 3px;
 	margin-top: 10px;
 
-
 }
 
 #amount {
 	color: #424242;
 	padding-left: 5px;
+
 }
 
 .dollars input[type="submit"] {
