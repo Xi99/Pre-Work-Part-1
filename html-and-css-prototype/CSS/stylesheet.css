@@ -88,7 +88,7 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	font-size: 14px;
 	color: #777;
-
+	border-radius: 0px 0px 2px 2px;
 
 
 }
@@ -134,8 +134,8 @@ h1 {
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 }
 
-.clearing {
-	clear: both;
+#give:hover {
+	background-color: #66FF66;
 }
 
 .why-give {
@@ -143,5 +143,39 @@ h1 {
 	color: #20A1D4;
 	font-family: font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
 	margin-top: 5px;
+}
+
+.save {
+  border: 1px solid #eaeaea;
+  color: #777;
+	background-color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+	font-size: 11px;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-weight: bold;
+	padding: 10px 18px;
+}
+
+.tell {
+	border: 1px solid #eaeaea;
+	color: #777;
+	border-radius: 4px;
+	background-color: white;
+  float: right;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 11px;
+	margin-top: 10px;
+	font-weight: bold;
+
 }
 /* Your CSS code goes here */
